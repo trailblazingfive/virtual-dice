@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/trailblazingfive/virtual-dice/static/css/main.6e9a00fa.chunk.css",
-    "main.js": "/trailblazingfive/virtual-dice/static/js/main.2df4a3f2.chunk.js",
-    "main.js.map": "/trailblazingfive/virtual-dice/static/js/main.2df4a3f2.chunk.js.map",
-    "runtime-main.js": "/trailblazingfive/virtual-dice/static/js/runtime-main.821b8c23.js",
-    "runtime-main.js.map": "/trailblazingfive/virtual-dice/static/js/runtime-main.821b8c23.js.map",
-    "static/js/2.598a55a6.chunk.js": "/trailblazingfive/virtual-dice/static/js/2.598a55a6.chunk.js",
-    "static/js/2.598a55a6.chunk.js.map": "/trailblazingfive/virtual-dice/static/js/2.598a55a6.chunk.js.map",
-    "static/js/3.90f72119.chunk.js": "/trailblazingfive/virtual-dice/static/js/3.90f72119.chunk.js",
-    "static/js/3.90f72119.chunk.js.map": "/trailblazingfive/virtual-dice/static/js/3.90f72119.chunk.js.map",
-    "index.html": "/trailblazingfive/virtual-dice/index.html",
-    "static/css/main.6e9a00fa.chunk.css.map": "/trailblazingfive/virtual-dice/static/css/main.6e9a00fa.chunk.css.map",
-    "static/js/2.598a55a6.chunk.js.LICENSE.txt": "/trailblazingfive/virtual-dice/static/js/2.598a55a6.chunk.js.LICENSE.txt"
+    "main.css": "/virtual-dice/static/css/main.6e9a00fa.chunk.css",
+    "main.js": "/virtual-dice/static/js/main.2df4a3f2.chunk.js",
+    "main.js.map": "/virtual-dice/static/js/main.2df4a3f2.chunk.js.map",
+    "runtime-main.js": "/virtual-dice/static/js/runtime-main.91fb18dd.js",
+    "runtime-main.js.map": "/virtual-dice/static/js/runtime-main.91fb18dd.js.map",
+    "static/js/2.3142e786.chunk.js": "/virtual-dice/static/js/2.3142e786.chunk.js",
+    "static/js/2.3142e786.chunk.js.map": "/virtual-dice/static/js/2.3142e786.chunk.js.map",
+    "static/js/3.90f72119.chunk.js": "/virtual-dice/static/js/3.90f72119.chunk.js",
+    "static/js/3.90f72119.chunk.js.map": "/virtual-dice/static/js/3.90f72119.chunk.js.map",
+    "index.html": "/virtual-dice/index.html",
+    "static/css/main.6e9a00fa.chunk.css.map": "/virtual-dice/static/css/main.6e9a00fa.chunk.css.map",
+    "static/js/2.3142e786.chunk.js.LICENSE.txt": "/virtual-dice/static/js/2.3142e786.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.821b8c23.js",
-    "static/js/2.598a55a6.chunk.js",
+    "static/js/runtime-main.91fb18dd.js",
+    "static/js/2.3142e786.chunk.js",
     "static/css/main.6e9a00fa.chunk.css",
     "static/js/main.2df4a3f2.chunk.js"
   ]
