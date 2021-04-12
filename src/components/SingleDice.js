@@ -1,12 +1,14 @@
 import React from 'react'
 
+import './css/SingleDice.css'
+
 const SingleDice = (props) => {
 
   return (
-    <button onClick={()=>{props.cbRollDice(
+    <button className="SingleDice" onClick={()=>{props.rollSettings.rollDice(
       props.dSide,
-      props.dNumber,
-      props.rollMod
+      props.rollSettings.dNumber,
+      props.rollSettings.rollMod
     )
   }}>D{props.dSide}</button>
   )
