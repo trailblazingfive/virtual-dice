@@ -1,0 +1,12 @@
+.SingleDice {
+  margin: 10px;
+  width: 80px;
+  height: 80px;
+  border: 0px;
+  background-color: rgba(87, 71, 71, 0.473)
+}
+
+.SingleDice:hover{
+  background-color: black;
+  color: white;
+}

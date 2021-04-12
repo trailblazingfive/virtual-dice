@@ -1,4 +1,34 @@
 .ModButton {
-  margin: 10px;
-  border: 2px black solid;
+  margin: 20px auto;
+  border: 1px black solid;
+  padding: 20px;
+  width: 70%;
+}
+
+.ModButton h1{
+  padding-bottom: 10px;
+}
+
+.Controls {
+  display: flex;
+  flex-direction: rows;
+  width: 50%;
+  height: 40px;
+  vertical-align: middle;
+}
+
+.Controls button {
+  width: 20%;
+  border: 0px;
+  background-color: rgba(87, 71, 71, 0.473)
+}
+
+.Controls div {
+  line-height: 40px;
+
+}
+
+.Controls button:hover{
+  background-color: black;
+  color: white;
 }
