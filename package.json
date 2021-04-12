@@ -12,7 +12,6 @@
     "react-scripts": "4.0.3",
     "styled-components": "^5.2.3",
     "web-vitals": "^1.1.1",
-    "homepage": "https://trailblazingfive.github.io/virtual-dice/"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -20,6 +19,10 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trailblazingfive/virtual-dice"
   },
   "eslintConfig": {
     "extends": [
