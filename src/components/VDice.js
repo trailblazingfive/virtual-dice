@@ -1,15 +1,34 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import './css/VDice.css'
 
 import ModButton from './ModButton'
-import RollResult from './RollResult'
 import SingleDice from './SingleDice'
+
+import styled from 'styled-components';
+
+
+const Title = styled.h1`
+  margin-top: 10px;
+  text-align: center;
+  line-height: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 2em;
+`
+const RollResult = styled.h1`
+  margin-top: 10px;
+  text-align: center;
+  line-height: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 2em;
+`
 
 const VDice = (props) => {
 
   const [dNumber, setDNumber] = useState(1)
   const [rollMod, setRollMod] = useState(0)
-  const [rollResult, setRollResult] = useState(0)
+  const [rollResult, setRollResult] = useState('')
 
   // https://developer.mozilla.org/pl/docs/Web/JavaScript/Reference/Global_Objects/Math/random
   function getRandomIntInclusive(min, max) {
@@ -22,61 +41,30 @@ const VDice = (props) => {
     let result = 0
     for (let i = 1; i <= dNumber; i++) {
       result += getRandomIntInclusive(0, dSide)
-      console.log(`${i}; ${result}`)
     }
     result += rollMod
     setRollResult(result)
   }
 
+  const rollSettings = {
+    rollMod: rollMod,
+    dNumber: dNumber,
+    rollDice: rollDice
+  }
 
   return (
     <div className="VDice">
-      <h1>Virtual Dice</h1>
-      <SingleDice
-        dSide={4}
-        dNumber={dNumber}
-        rollMod={rollMod}
-        cbRollDice={rollDice}
-      ></SingleDice>
-      <SingleDice
-        dSide={6}
-        dNumber={dNumber}
-        rollMod={rollMod}
-        cbRollDice={rollDice}
-      ></SingleDice>
-      <SingleDice
-        dSide={8}
-        dNumber={dNumber}
-        rollMod={rollMod}
-        cbRollDice={rollDice}
-      ></SingleDice>
-      <SingleDice
-        dSide={10}
-        dNumber={dNumber}
-        rollMod={rollMod}
-        cbRollDice={rollDice}
-      ></SingleDice>
-      <SingleDice
-        dSide={12}
-        dNumber={dNumber}
-        rollMod={rollMod}
-        cbRollDice={rollDice}
-      ></SingleDice>
-      <SingleDice
-        dSide={20}
-        dNumber={dNumber}
-        rollMod={rollMod}
-        cbRollDice={rollDice}
-      ></SingleDice>
-      <SingleDice
-        dSide={100}
-        dNumber={dNumber}
-        rollMod={rollMod}
-        cbRollDice={rollDice}
-      ></SingleDice>
-      <ModButton name={'set dice N'} value={dNumber} cbValue={setDNumber}></ModButton>
-      <ModButton name={'set roll mod'} value={rollMod} cbValue={setRollMod}></ModButton>
-      <p>Roll result: {rollResult}</p>
+      <Title>Virtual Dice</Title>
+      <SingleDice dSide={4} rollSettings={rollSettings}></SingleDice>
+      <SingleDice dSide={6} rollSettings={rollSettings}></SingleDice>
+      <SingleDice dSide={8} rollSettings={rollSettings}></SingleDice>
+      <SingleDice dSide={10} rollSettings={rollSettings}></SingleDice>
+      <SingleDice dSide={12} rollSettings={rollSettings}></SingleDice>
+      <SingleDice dSide={20} rollSettings={rollSettings}></SingleDice>
+      <SingleDice dSide={100} rollSettings={rollSettings}></SingleDice>
+      <ModButton name={'Set number of dice'} value={dNumber} cbValue={setDNumber}></ModButton>
+      <ModButton name={'Set roll modification'} value={rollMod} cbValue={setRollMod}></ModButton>
+      <RollResult>{rollResult}</RollResult>
     </div>
   )
 
