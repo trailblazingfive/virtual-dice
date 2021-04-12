@@ -40,7 +40,7 @@ const VDice = (props) => {
   const rollDice = (dSide, dNumber, rollMod) => {
     let result = 0
     for (let i = 1; i <= dNumber; i++) {
-      result += getRandomIntInclusive(0, dSide)
+      result += getRandomIntInclusive(1, dSide)
     }
     result += rollMod
     setRollResult(result)
