@@ -2,7 +2,7 @@
   margin: 20px auto;
   border: 1px black solid;
   padding: 20px;
-  width: 70%;
+  width: 40%;
 }
 
 .ModButton h1{
@@ -18,14 +18,14 @@
 }
 
 .Controls button {
-  width: 20%;
+  width: 100px;
   border: 0px;
   background-color: rgba(87, 71, 71, 0.473)
 }
 
 .Controls div {
   line-height: 40px;
-
+  width: 100px;
 }
 
 .Controls button:hover{
