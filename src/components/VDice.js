@@ -3,6 +3,9 @@ import './css/VDice.css'
 
 import ModButton from './ModButton'
 import SingleDice from './SingleDice'
+import Backdrop from "./Backdrop";
+import Credit from "./Credit"
+
 
 import styled from 'styled-components';
 
@@ -14,6 +17,7 @@ const Title = styled.h1`
   padding-top: 5px;
   padding-bottom: 5px;
   font-size: 2em;
+  user-select: none;
 `
 // const RollResult = styled.h1`
 //   margin-top: 10px;
@@ -23,15 +27,6 @@ const Title = styled.h1`
 //   padding-bottom: 5px;
 //   font-size: 2em;
 // `
-
-const RollResult = styled.div`
-  margin-top: 10px;
-  text-align: center;
-  line-height: 50px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  font-size: 2em;
-`
 
 const ModContainer = styled.div`
   display: flex;
@@ -97,11 +92,11 @@ const VDice = (props) => {
   return (
     <div className="VDice">
       <Title>Virtual dice</Title>
-      <RollResult>
+      <div className="RollResults">
         <p>{rollResult.diceTypeStr}</p>
         <p>{rollResult.total}</p>
         <p>{rollResult.rollsStr}</p>
-      </RollResult>
+      </div>
       <SingleDice dSide={4} rollSettings={rollSettings}></SingleDice>
       <SingleDice dSide={6} rollSettings={rollSettings}></SingleDice>
       <SingleDice dSide={8} rollSettings={rollSettings}></SingleDice>
@@ -113,6 +108,8 @@ const VDice = (props) => {
         <ModButton name={'Set number of dice'} value={dNumber} cbValue={setDNumber}></ModButton>
         <ModButton name={'Set roll modification'} value={rollMod} cbValue={setRollMod}></ModButton>
       </ModContainer>
+      <Backdrop />
+      <Credit/>
     </div>
   )
 

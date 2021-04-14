@@ -2,6 +2,19 @@
   width: 80%;
 }
 
+.RollResults{
+  margin-top: 10px;
+  text-align: center;
+  line-height: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.RollResults p{
+  font-size: 1.4em;
+  line-height: 1.05em;
+}
+
 @media screen and (min-width:300px) and (max-width:1000px) {
   .VDice {
     width: 95%;
