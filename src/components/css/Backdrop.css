@@ -1,0 +1,17 @@
+.backdrop {
+  background-position: center;
+  background-size: cover;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  z-index: -100;
+}
+
+.image {
+  background-image: url("../../assets/50759970901_9572aba15e_k.jpg");
+}
