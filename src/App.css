@@ -1,9 +1,9 @@
 .App {
-  border: 1px solid black;
   text-align: center;
   width: 80%;
   margin-top: 30px;
-  border-radius: 10px;
+  border-radius: 2px;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 @media screen and (min-width:300px) and (max-width:1000px) {
