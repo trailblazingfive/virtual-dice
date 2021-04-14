@@ -1,10 +1,22 @@
-/* @font-face {
-
-} */
+@font-face {
+  font-family: OdibeeSans;
+  src: url('./assets/OdibeeSans-Regular.ttf')
+}
 
 *{
-  font:15px/21px 'Arial', sans-serif; height: auto;
-  background: white;
+  font:25px/31px 'OdibeeSans', sans-serif; height: auto;
+  background: transparent;
   margin: 0 auto;
   padding: 0;
+  color: white;
+}
+
+body{
+  background-color: #000000;
+}
+
+@media screen and (min-width:300px) and (max-width:1000px) {
+  * {
+    font-size: 1.02em;
+  }
 }
