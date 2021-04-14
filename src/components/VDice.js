@@ -37,6 +37,9 @@ const ModContainer = styled.div`
   display: flex;
   flex-direction: rows;
   vertical-align: middle;
+  @media screen and (min-width:300px) and (max-width:1000px) {
+    flex-direction: column;
+  }
 `
 
 const VDice = (props) => {
@@ -93,7 +96,7 @@ const VDice = (props) => {
 
   return (
     <div className="VDice">
-      <Title>Virtual Dice</Title>
+      <Title>Virtual dice</Title>
       <RollResult>
         <p>{rollResult.diceTypeStr}</p>
         <p>{rollResult.total}</p>
