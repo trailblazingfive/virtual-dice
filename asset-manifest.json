@@ -1,22 +1,24 @@
 {
   "files": {
-    "main.css": "/virtual-dice/static/css/main.edab5ec3.chunk.css",
-    "main.js": "/virtual-dice/static/js/main.b7b8264b.chunk.js",
-    "main.js.map": "/virtual-dice/static/js/main.b7b8264b.chunk.js.map",
-    "runtime-main.js": "/virtual-dice/static/js/runtime-main.91fb18dd.js",
-    "runtime-main.js.map": "/virtual-dice/static/js/runtime-main.91fb18dd.js.map",
-    "static/js/2.0fc1a386.chunk.js": "/virtual-dice/static/js/2.0fc1a386.chunk.js",
-    "static/js/2.0fc1a386.chunk.js.map": "/virtual-dice/static/js/2.0fc1a386.chunk.js.map",
-    "static/js/3.90f72119.chunk.js": "/virtual-dice/static/js/3.90f72119.chunk.js",
-    "static/js/3.90f72119.chunk.js.map": "/virtual-dice/static/js/3.90f72119.chunk.js.map",
+    "main.css": "/virtual-dice/static/css/main.2e757f40.chunk.css",
+    "main.js": "/virtual-dice/static/js/main.96ed064c.chunk.js",
+    "main.js.map": "/virtual-dice/static/js/main.96ed064c.chunk.js.map",
+    "runtime-main.js": "/virtual-dice/static/js/runtime-main.eed8d44e.js",
+    "runtime-main.js.map": "/virtual-dice/static/js/runtime-main.eed8d44e.js.map",
+    "static/js/2.ad14c217.chunk.js": "/virtual-dice/static/js/2.ad14c217.chunk.js",
+    "static/js/2.ad14c217.chunk.js.map": "/virtual-dice/static/js/2.ad14c217.chunk.js.map",
+    "static/js/3.5b2069de.chunk.js": "/virtual-dice/static/js/3.5b2069de.chunk.js",
+    "static/js/3.5b2069de.chunk.js.map": "/virtual-dice/static/js/3.5b2069de.chunk.js.map",
     "index.html": "/virtual-dice/index.html",
-    "static/css/main.edab5ec3.chunk.css.map": "/virtual-dice/static/css/main.edab5ec3.chunk.css.map",
-    "static/js/2.0fc1a386.chunk.js.LICENSE.txt": "/virtual-dice/static/js/2.0fc1a386.chunk.js.LICENSE.txt"
+    "static/css/main.2e757f40.chunk.css.map": "/virtual-dice/static/css/main.2e757f40.chunk.css.map",
+    "static/js/2.ad14c217.chunk.js.LICENSE.txt": "/virtual-dice/static/js/2.ad14c217.chunk.js.LICENSE.txt",
+    "static/media/Backdrop.css": "/virtual-dice/static/media/50759970901_9572aba15e_k.aa3bb0be.jpg",
+    "static/media/index.css": "/virtual-dice/static/media/OdibeeSans-Regular.e408091a.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.91fb18dd.js",
-    "static/js/2.0fc1a386.chunk.js",
-    "static/css/main.edab5ec3.chunk.css",
-    "static/js/main.b7b8264b.chunk.js"
+    "static/js/runtime-main.eed8d44e.js",
+    "static/js/2.ad14c217.chunk.js",
+    "static/css/main.2e757f40.chunk.css",
+    "static/js/main.96ed064c.chunk.js"
   ]
 }
