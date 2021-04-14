@@ -1,8 +1,8 @@
 .ModButton {
   margin: 20px auto;
-  border: 1px black solid;
   padding: 20px;
   width: 40%;
+  border-radius: 2px;
 }
 
 .ModButton h1{
@@ -12,25 +12,27 @@
 .Controls {
   display: flex;
   flex-direction: rows;
-  width: 50%;
+  width: 200px;
   height: 40px;
   vertical-align: middle;
 }
 
 .Controls button {
-  width: 100px;
+  width: 50px;
+  height: 50px;
   border: 0px;
-  background-color: rgba(87, 71, 71, 0.473)
+  margin: 0px;
+  background: black;
 }
 
 .Controls div {
   line-height: 40px;
-  width: 100px;
+  width: 40px;
 }
 
 .Controls button:hover{
-  background-color: black;
-  color: white;
+  background: white;
+  color: black;
 }
 
 @media screen and (min-width:300px) and (max-width:1000px) {
