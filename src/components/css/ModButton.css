@@ -32,3 +32,11 @@
   background-color: black;
   color: white;
 }
+
+@media screen and (min-width:300px) and (max-width:1000px) {
+  .ModButton {
+    margin: 10px auto;
+    padding: 10px;
+    width: 90%;
+  }
+}

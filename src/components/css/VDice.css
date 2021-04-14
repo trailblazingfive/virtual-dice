@@ -2,3 +2,8 @@
   width: 80%;
 }
 
+@media screen and (min-width:300px) and (max-width:1000px) {
+  .VDice {
+    width: 95%;
+  }
+}
