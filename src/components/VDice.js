@@ -78,9 +78,9 @@ const VDice = (props) => {
   const arrToStr = (arr) => {
     let str = ''
     for (let i = 0; i < arr.length; i++) {
-      str += `${arr[i]},`
+      str += `${arr[i]}, `
     }
-    return str.slice(0, -1)
+    return str.slice(0, -2)
   }
 
   const rollSettings = {
@@ -94,8 +94,8 @@ const VDice = (props) => {
       <Title>Virtual dice</Title>
       <div className="RollResults">
         <p>{rollResult.diceTypeStr}</p>
-        <p>{rollResult.total}</p>
-        <p>{rollResult.rollsStr}</p>
+        <p id="DiceTotal">{rollResult.total}</p>
+        <p id="DiceRolls">{rollResult.rollsStr}</p>
       </div>
       <SingleDice dSide={4} rollSettings={rollSettings}></SingleDice>
       <SingleDice dSide={6} rollSettings={rollSettings}></SingleDice>
