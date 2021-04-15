@@ -5,11 +5,13 @@
   border: 0px;
   background: black;
   border-radius: 2px;
+  border: 2px white solid;
 }
 
 .SingleDice:hover{
   background: white;
   color: black;
+  border: 2px black solid;
 }
 
 @media screen and (min-width:300px) and (max-width:1000px) {
