@@ -105,8 +105,8 @@ const VDice = (props) => {
       <SingleDice dSide={20} rollSettings={rollSettings}></SingleDice>
       <SingleDice dSide={100} rollSettings={rollSettings}></SingleDice>
       <ModContainer>
-        <ModButton name={'Set number of dice'} value={dNumber} cbValue={setDNumber}></ModButton>
-        <ModButton name={'Set roll modification'} value={rollMod} cbValue={setRollMod}></ModButton>
+        <ModButton name={'Set number of dice'} value={dNumber} cbValue={setDNumber} min={1}></ModButton>
+        <ModButton name={'Set roll modification'} value={rollMod} cbValue={setRollMod} min={false}></ModButton>
       </ModContainer>
       <Backdrop />
       <Credit/>
