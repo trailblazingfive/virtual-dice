@@ -30,11 +30,11 @@ const Credit = () => {
   return (
     <CreditDiv>
       <StyledLink
-        href="https://www.flickr.com/photos/nattydread011/50759970901/"
+        href="https://wallpaperscraft.com/wallpaper/satellite_orbit_flight_iss_world_57874"
         target="_blank"
         rel="noopener noreferrer"
       >
-        background art by Natty Dread
+        background art source
     </StyledLink>
     <StyledP> | </StyledP>
       <StyledLink
@@ -42,7 +42,7 @@ const Credit = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        by trailblazingfive 2021
+        app by trailblazingfive 2021
     </StyledLink>
     </CreditDiv>
   );
