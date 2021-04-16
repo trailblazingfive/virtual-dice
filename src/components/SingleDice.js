@@ -10,7 +10,7 @@ const SingleDice = (props) => {
       props.rollSettings.dNumber,
       props.rollSettings.rollMod
     )
-  }}>D{props.dSide}</button>
+  }}>d{props.dSide}</button>
   )
 }
 
