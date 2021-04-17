@@ -5,12 +5,16 @@ const SelectViewContainer = styled.div`
   display: flexbox;
   flex-direction: rows;
   vertical-align: middle;
+  padding: 5px;
+  width: 50%;
 `
 
 const ViewButton = styled.div`
   background: black;
   border-radius: 2px;
   border: 2px white solid;
+  padding: 10px;
+  width: 100px;
   :hover {
     background: white;
     color: black;
@@ -23,7 +27,7 @@ const SelectView = (props) => {
   return (
     <SelectViewContainer>
       <ViewButton>Dice roll</ViewButton>
-      <ViewButton disabled={true}>History</ViewButton>
+      <ViewButton>History</ViewButton>
     </SelectViewContainer>
   )
 }
