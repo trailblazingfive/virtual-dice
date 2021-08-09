@@ -51,7 +51,6 @@ const VDice = (props) => {
       result += rolls[rolls.length - 1]
     }
     result += rollMod
-    console.log(rolls)
     if (rollMod === 0) {
       rollModStr = ""
     } else if (rollMod > 0) {
