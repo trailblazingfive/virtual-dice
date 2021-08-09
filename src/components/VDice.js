@@ -19,14 +19,6 @@ const Title = styled.h1`
   font-size: 2em;
   user-select: none;
 `
-// const RollResult = styled.h1`
-//   margin-top: 10px;
-//   text-align: center;
-//   line-height: 50px;
-//   padding-top: 5px;
-//   padding-bottom: 5px;
-//   font-size: 2em;
-// `
 
 const ModContainer = styled.div`
   display: flex;
