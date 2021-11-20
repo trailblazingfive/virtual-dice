@@ -30,7 +30,7 @@ const Credit = () => {
   return (
     <CreditDiv>
       <StyledLink
-        href="https://wallpaperscraft.com/wallpaper/satellite_orbit_flight_iss_world_57874"
+        href="https://wallpapersmug.com/w/download/1920x1080/cyberpunk-city-buildings-art-13377a25488"
         target="_blank"
         rel="noopener noreferrer"
       >
