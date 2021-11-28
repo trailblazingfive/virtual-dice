@@ -1,16 +1,21 @@
-import React from 'react'
-import './css/SingleDice.css'
+import React from "react";
+import "./css/SingleDice.css";
 
-const SingleDice = (props) => {
-  
+const SingleDice = props => {
   return (
-    <button className="SingleDice" onClick={()=>{props.rollSettings.rollDice(
-      props.dSide,
-      props.rollSettings.dNumber,
-      props.rollSettings.rollMod
-    )
-  }}>d{props.dSide}</button>
-  )
-}
+    <button
+      className="SingleDice"
+      onClick={() => {
+        props.rollSettings.rollDice(
+          props.dSide,
+          props.rollSettings.dNumber,
+          props.rollSettings.rollMod
+        );
+      }}
+    >
+      d{props.dSide}
+    </button>
+  );
+};
 
 export default SingleDice;

@@ -1,5 +1,5 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from "react";
+import styled from "styled-components";
 
 const SelectViewContainer = styled.div`
   display: flexbox;
@@ -7,7 +7,7 @@ const SelectViewContainer = styled.div`
   vertical-align: middle;
   padding: 5px;
   width: 50%;
-`
+`;
 
 const ViewButton = styled.div`
   background: black;
@@ -20,16 +20,15 @@ const ViewButton = styled.div`
     color: black;
     border: 2px black solid;
   }
-`
+`;
 
-const SelectView = (props) => {
-
+const SelectView = props => {
   return (
     <SelectViewContainer>
       <ViewButton>Dice roll</ViewButton>
       <ViewButton>History</ViewButton>
     </SelectViewContainer>
-  )
-}
+  );
+};
 
-export default SelectView
+export default SelectView;

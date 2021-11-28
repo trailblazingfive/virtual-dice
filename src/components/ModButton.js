@@ -1,34 +1,32 @@
-import React, { useState } from 'react';
-import './css/ModButton.css'
+import React, { useState } from "react";
+import "./css/ModButton.css";
 
-const ModButton = (props) => {
+const ModButton = props => {
+  const [value, setValue] = useState(props.value);
 
-  const [value, setValue] = useState(props.value)
-
-  let incValue = (min) => {
+  let incValue = min => {
     if (min === false) {
-      setValue(value + 1)
-      props.cbValue(value + 1)
+      setValue(value + 1);
+      props.cbValue(value + 1);
     } else {
-      if ((value+1) >= min) {
-        setValue(value + 1)
-        props.cbValue(value + 1)
+      if (value + 1 >= min) {
+        setValue(value + 1);
+        props.cbValue(value + 1);
       }
     }
+  };
 
-  }
-
-  let decValue = (min) => {
+  let decValue = min => {
     if (min === false) {
-      setValue(value - 1)
-      props.cbValue(value - 1)
+      setValue(value - 1);
+      props.cbValue(value - 1);
     } else {
-      if ((value-1) >= min) {
-        setValue(value - 1)
-        props.cbValue(value - 1)
+      if (value - 1 >= min) {
+        setValue(value - 1);
+        props.cbValue(value - 1);
       }
     }
-  }
+  };
 
   return (
     <div className="ModButton">
@@ -39,7 +37,7 @@ const ModButton = (props) => {
         <button onClick={() => incValue(props.min)}>+</button>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default ModButton
+export default ModButton;
