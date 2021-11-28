@@ -30,7 +30,6 @@ const ModButton = (props) => {
     }
   }
 
-
   return (
     <div className="ModButton">
       <h1>{props.name}</h1>
