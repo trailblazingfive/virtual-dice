@@ -1,0 +1,1 @@
+export const DEFAULT_DICE_SET = [4, 6, 8, 10, 12, 20, 100]
