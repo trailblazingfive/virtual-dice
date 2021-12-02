@@ -8,6 +8,9 @@ import { DEFAULT_DICE_SET } from "../utils/config"
 import "./css/VDice.css";
 import styled from "styled-components";
 
+import { useSelector, useDispatch } from 'react-redux'
+import { addRoll } from "../redux/rollSlice";
+
 const Title = styled.h1`
   margin-top: 10px;
   text-align: center;
@@ -33,11 +36,17 @@ const VDice = props => {
   const [rollResult, setRollResult] = useState("");
   const [diceArray, setDiceArray] = useState(DEFAULT_DICE_SET);
 
+  const dispatch = useDispatch()
+  const allRolls = useSelector((state) => state.roll.rolls)
+
   const rollSettings = {
     rollMod: rollMod,
     dNumber: dNumber,
     rollDice: (dSide, dNumber, rollMod) => {
-      setRollResult(generateRoll(dSide, dNumber, rollMod));
+      let result = generateRoll(dSide, dNumber, rollMod)
+      dispatch(addRoll(result))
+      console.log(allRolls)
+      setRollResult(result);
     }
   };
 
@@ -52,6 +61,9 @@ const VDice = props => {
         <p>{rollResult.diceTypeStr}</p>
         <p id="DiceTotal">{rollResult.total}</p>
         <p id="DiceRolls">{rollResult.rollsStr}</p>
+        {allRolls.map(element => (
+          <p>{element.total}</p>
+        ))}
       </div>
       {diceArray.map(element => (
         <SingleDice dSide={element} rollSettings={rollSettings}></SingleDice>
