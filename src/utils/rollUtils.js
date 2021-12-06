@@ -1,6 +1,7 @@
 import {convertRollArrayToString} from '../utils/conversionUtils'
 
-export const generateRoll = (dSide, dNumber, rollMod) => {
+
+export const generateRoll = (dSide, dNumber, rollMod, rollCounter) => {
   let result = 0
   let rolls = []
   let rollModStr = ''
@@ -18,8 +19,10 @@ export const generateRoll = (dSide, dNumber, rollMod) => {
   }
 
   return {
+    timestamp: new Date(),
     total: result,
     rolls: rolls,
+    rollNumber: rollCounter,
     rollsStr: convertRollArrayToString(rolls),
     diceTypeStr: `${dNumber}d${dSide}${rollModStr}`
   }
