@@ -9,7 +9,8 @@ const SingleDice = props => {
         props.rollSettings.rollDice(
           props.dSide,
           props.rollSettings.dNumber,
-          props.rollSettings.rollMod
+          props.rollSettings.rollMod,
+          props.rollSettings.rollCounter
         );
       }}
     >
