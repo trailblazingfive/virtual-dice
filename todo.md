@@ -1,6 +1,7 @@
 ### Todo list
-- write proper readme
-- ~~rice up the looks~~
-- ~~add responsive stile for mobile and table use~~
-- add roll history using redux
-- add testing
++ write proper readme
++ <del>rice up the looks
++ <del>add responsive stile for mobile and table use
++ <del>add roll history using redux
++ add testing
++ add adding custom dice
