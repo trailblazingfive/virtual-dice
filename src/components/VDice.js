@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import ModButton from "./ModButton";
 import SingleDice from "./SingleDice";
 import Backdrop from "./Backdrop";
-import Credit from "./Credit";
 import { RollHistory } from "./RollHistory"
 import { generateRoll } from "../utils/rollUtils";
 import { DEFAULT_DICE_SET } from "../utils/config"
@@ -83,7 +82,6 @@ const VDice = props => {
       </ModContainer>
       <RollHistory allRolls={allRolls}/>
       <Backdrop />
-      <Credit />
     </div>
   );
 };

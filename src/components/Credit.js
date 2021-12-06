@@ -4,7 +4,6 @@ import styled from "styled-components";
 const StyledLink = styled.a`
   font-family: UbuntuMono;
   font-size: 0.6em;
-  text-align: right;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.5);
   :hover {
@@ -14,16 +13,22 @@ const StyledLink = styled.a`
 
 const StyledP = styled.p`
   font-size: 0.6em;
-  text-align: right;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.5);
   display: inline;
 `;
 
 const CreditDiv = styled.div`
-  position: fixed;
+  text-align: right;
+  position: absolute;
   bottom: 0.5vw;
   right: 0.5vw;
+  @media screen and (min-width: 300px) and (max-width: 1000px) {
+    position: static;
+    width: 100%;
+    text-align: right;
+    vertical-align: bottom;
+  }
 `;
 
 const Credit = () => {
