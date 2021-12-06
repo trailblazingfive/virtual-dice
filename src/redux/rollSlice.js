@@ -4,7 +4,7 @@ export const rollSlice = createSlice({
   name: 'roll',
   initialState: {
     rolls: [],
-    rollCounter: 0,
+    rollCounter: 1,
   },
   reducers: {
     addRoll: (state, action) => {
