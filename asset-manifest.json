@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/virtual-dice/static/css/main.36e43ec2.chunk.css",
+    "main.css": "/virtual-dice/static/css/main.293c1d52.chunk.css",
     "main.js": "/virtual-dice/static/js/main.04f15cae.chunk.js",
     "main.js.map": "/virtual-dice/static/js/main.04f15cae.chunk.js.map",
     "runtime-main.js": "/virtual-dice/static/js/runtime-main.a0060081.js",
@@ -10,15 +10,15 @@
     "static/js/3.196e7de7.chunk.js": "/virtual-dice/static/js/3.196e7de7.chunk.js",
     "static/js/3.196e7de7.chunk.js.map": "/virtual-dice/static/js/3.196e7de7.chunk.js.map",
     "index.html": "/virtual-dice/index.html",
-    "static/css/main.36e43ec2.chunk.css.map": "/virtual-dice/static/css/main.36e43ec2.chunk.css.map",
+    "static/css/main.293c1d52.chunk.css.map": "/virtual-dice/static/css/main.293c1d52.chunk.css.map",
     "static/js/2.6f1ec117.chunk.js.LICENSE.txt": "/virtual-dice/static/js/2.6f1ec117.chunk.js.LICENSE.txt",
     "static/media/index.css": "/virtual-dice/static/media/UbuntuMono-Regular.f17c0593.ttf",
-    "static/media/Backdrop.css": "/virtual-dice/static/media/cyberpunk-city-buildings-art.ecee19c4.jpg"
+    "static/media/Backdrop.css": "/virtual-dice/static/media/cyberpunk-city-buildings-art-compressed.987aea99.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.a0060081.js",
     "static/js/2.6f1ec117.chunk.js",
-    "static/css/main.36e43ec2.chunk.css",
+    "static/css/main.293c1d52.chunk.css",
     "static/js/main.04f15cae.chunk.js"
   ]
 }
