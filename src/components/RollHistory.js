@@ -2,13 +2,14 @@ import React from "react";
 import styled from "styled-components";
 
 const HistoryContainer = styled.div`
-  height: 300px;
+  height: 30vh;
   overflow: auto;
   border: 1px solid white;
-  padding: 10px;
+  padding: 5px;
   width: 90%;
   @media screen and (min-width: 300px) and (max-width: 1000px) {
-    width: 98%;
+    width: 80%;
+    height: 20vh;
   }
 `;
 
@@ -31,6 +32,10 @@ const SingleRow = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    @media screen and (min-width: 300px) and (max-width: 1000px) {
+      padding: 0px;
+      margin: 0px;
+    }
   }
 `;
 
