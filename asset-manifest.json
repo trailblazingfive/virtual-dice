@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/virtual-dice/static/css/main.dc6b9f03.chunk.css",
-    "main.js": "/virtual-dice/static/js/main.76820a81.chunk.js",
-    "main.js.map": "/virtual-dice/static/js/main.76820a81.chunk.js.map",
-    "runtime-main.js": "/virtual-dice/static/js/runtime-main.eed8d44e.js",
-    "runtime-main.js.map": "/virtual-dice/static/js/runtime-main.eed8d44e.js.map",
-    "static/js/2.45ff523a.chunk.js": "/virtual-dice/static/js/2.45ff523a.chunk.js",
-    "static/js/2.45ff523a.chunk.js.map": "/virtual-dice/static/js/2.45ff523a.chunk.js.map",
-    "static/js/3.5b2069de.chunk.js": "/virtual-dice/static/js/3.5b2069de.chunk.js",
-    "static/js/3.5b2069de.chunk.js.map": "/virtual-dice/static/js/3.5b2069de.chunk.js.map",
+    "main.css": "/virtual-dice/static/css/main.c00d8277.chunk.css",
+    "main.js": "/virtual-dice/static/js/main.4140f92d.chunk.js",
+    "main.js.map": "/virtual-dice/static/js/main.4140f92d.chunk.js.map",
+    "runtime-main.js": "/virtual-dice/static/js/runtime-main.a0060081.js",
+    "runtime-main.js.map": "/virtual-dice/static/js/runtime-main.a0060081.js.map",
+    "static/js/2.6f1ec117.chunk.js": "/virtual-dice/static/js/2.6f1ec117.chunk.js",
+    "static/js/2.6f1ec117.chunk.js.map": "/virtual-dice/static/js/2.6f1ec117.chunk.js.map",
+    "static/js/3.196e7de7.chunk.js": "/virtual-dice/static/js/3.196e7de7.chunk.js",
+    "static/js/3.196e7de7.chunk.js.map": "/virtual-dice/static/js/3.196e7de7.chunk.js.map",
     "index.html": "/virtual-dice/index.html",
-    "static/css/main.dc6b9f03.chunk.css.map": "/virtual-dice/static/css/main.dc6b9f03.chunk.css.map",
-    "static/js/2.45ff523a.chunk.js.LICENSE.txt": "/virtual-dice/static/js/2.45ff523a.chunk.js.LICENSE.txt",
+    "static/css/main.c00d8277.chunk.css.map": "/virtual-dice/static/css/main.c00d8277.chunk.css.map",
+    "static/js/2.6f1ec117.chunk.js.LICENSE.txt": "/virtual-dice/static/js/2.6f1ec117.chunk.js.LICENSE.txt",
     "static/media/index.css": "/virtual-dice/static/media/OdibeeSans-Regular.e408091a.ttf",
     "static/media/Backdrop.css": "/virtual-dice/static/media/cyberpunk-city-buildings-art.ecee19c4.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.eed8d44e.js",
-    "static/js/2.45ff523a.chunk.js",
-    "static/css/main.dc6b9f03.chunk.css",
-    "static/js/main.76820a81.chunk.js"
+    "static/js/runtime-main.a0060081.js",
+    "static/js/2.6f1ec117.chunk.js",
+    "static/css/main.c00d8277.chunk.css",
+    "static/js/main.4140f92d.chunk.js"
   ]
 }
