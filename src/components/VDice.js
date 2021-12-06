@@ -3,13 +3,14 @@ import ModButton from "./ModButton";
 import SingleDice from "./SingleDice";
 import Backdrop from "./Backdrop";
 import Credit from "./Credit";
+import { RollHistory } from "./RollHistory"
 import { generateRoll } from "../utils/rollUtils";
 import { DEFAULT_DICE_SET } from "../utils/config"
 import "./css/VDice.css";
 import styled from "styled-components";
 
 import { useSelector, useDispatch } from 'react-redux'
-import { addRoll } from "../redux/rollSlice";
+import { addRoll, advanceRoll } from "../redux/rollSlice";
 
 const Title = styled.h1`
   margin-top: 10px;
@@ -42,10 +43,11 @@ const VDice = props => {
   const rollSettings = {
     rollMod: rollMod,
     dNumber: dNumber,
-    rollDice: (dSide, dNumber, rollMod) => {
-      let result = generateRoll(dSide, dNumber, rollMod)
+    rollCounter: useSelector((state) => state.roll.rollCounter),
+    rollDice: (dSide, dNumber, rollMod, rollCounter) => {
+      let result = generateRoll(dSide, dNumber, rollMod, rollCounter)
       dispatch(addRoll(result))
-      console.log(allRolls)
+      dispatch(advanceRoll())
       setRollResult(result);
     }
   };
@@ -61,9 +63,6 @@ const VDice = props => {
         <p>{rollResult.diceTypeStr}</p>
         <p id="DiceTotal">{rollResult.total}</p>
         <p id="DiceRolls">{rollResult.rollsStr}</p>
-        {allRolls.map(element => (
-          <p>{element.total}</p>
-        ))}
       </div>
       {diceArray.map(element => (
         <SingleDice dSide={element} rollSettings={rollSettings}></SingleDice>
@@ -82,6 +81,7 @@ const VDice = props => {
           min={false}
         ></ModButton>
       </ModContainer>
+      <RollHistory allRolls={allRolls}/>
       <Backdrop />
       <Credit />
     </div>
