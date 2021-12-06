@@ -43,9 +43,9 @@ export const RollHistory = props => {
         <SingleRow key={el.timestamp.getTime()}>
           <RowCell>{el.rollNumber}</RowCell>
           <RowCell>{el.timestamp.toLocaleTimeString()}</RowCell>
-          <RowCell>{el.diceTypeStr}</RowCell>
+          <RowCell>{el.diceTypeString}</RowCell>
           <RowCellBold>{el.total}</RowCellBold>
-          <RowCell>{el.rollsStr}</RowCell>
+          <RowCell>{el.rollsString}</RowCell>
         </SingleRow>
       ))}
     </HistoryContainer>

@@ -23,8 +23,8 @@ export const generateRoll = (dSide, dNumber, rollMod, rollCounter) => {
     total: result,
     rolls: rolls,
     rollNumber: rollCounter,
-    rollsStr: convertRollArrayToString(rolls),
-    diceTypeStr: `${dNumber}d${dSide}${rollModStr}`
+    rollsString: convertRollArrayToString(rolls),
+    diceTypeString: `${dNumber}d${dSide}${rollModStr}`
   }
 }
 
