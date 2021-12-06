@@ -60,9 +60,9 @@ const VDice = props => {
     <div className="VDice">
       <Title>Virtual dice</Title>
       <div className="RollResults">
-        <p>{rollResult.diceTypeString}</p>
-        <p id="DiceTotal">{rollResult.total}</p>
-        <p id="DiceRolls">{rollResult.rollsString}</p>
+        <p>{rollResult.diceTypeString}&nbsp;</p>
+        <p id="DiceTotal">{rollResult.total}&nbsp;</p>
+        <p id="DiceRolls">{rollResult.rollsString}&nbsp;</p>
       </div>
       {diceArray.map(element => (
         <SingleDice dSide={element} rollSettings={rollSettings}></SingleDice>

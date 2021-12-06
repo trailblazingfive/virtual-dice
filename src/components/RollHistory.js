@@ -6,13 +6,16 @@ const HistoryContainer = styled.div`
   overflow: auto;
   border: 1px solid white;
   padding: 10px;
-  width: 80%;
+  width: 90%;
+  @media screen and (min-width:300px) and (max-width:1000px){
+    width: 100%;
+  }
 `;
 
-const RowCell = styled.div`
+const RowCell = styled.p`
 `;
 
-const RowCellBold = styled.div`
+const RowCellBold = styled.p`
   font-weight: bold;
 `;
 
@@ -20,12 +23,15 @@ const SingleRow = styled.div`
   display: grid;
   border: 1px solid white;
   margin: 3px;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: 1fr 2fr 1fr 1fr 4fr;
 
   > * {
-    font-family: Arial;
+    font-family: UbuntuMono;
     padding: 5px;
-    font-size: 0.7em;
+    font-size: 0.9em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 `;
 

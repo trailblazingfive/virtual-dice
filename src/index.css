@@ -1,6 +1,11 @@
 @font-face {
   font-family: OdibeeSans;
-  src: url('./assets/OdibeeSans-Regular.ttf')
+  src: url('./assets/OdibeeSans-Regular.ttf');
+}
+
+@font-face {
+  font-family: UbuntuMono;
+  src: url('./assets/UbuntuMono-Regular.ttf');
 }
 
 *{
