@@ -9,4 +9,4 @@ React app with a set of D&D dice for tabletop sessions.
 + `npm deploy` build and deploy to github pages
 
 ---
-Merge to `main`, work on issues on seperate branches; avoid 3 way merges.
+Merge to `production`, work on issues on seperate branches; avoid 3 way merges.
