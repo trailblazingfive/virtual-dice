@@ -2,17 +2,18 @@ import React, { useState } from "react";
 import styled from "styled-components";
 
 const StyledLink = styled.a`
-  font-size: 0.5em;
+  font-family: UbuntuMono;
+  font-size: 0.6em;
   text-align: right;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.5);
   :hover {
-    color: rgba(255, 255, 255, 0.95);
+    color: rgba(255, 255, 255, 1);
   }
 `;
 
 const StyledP = styled.p`
-  font-size: 0.5em;
+  font-size: 0.6em;
   text-align: right;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.5);
