@@ -5,3 +5,4 @@
 + <del>add roll history using redux
 + add testing
 + add adding custom dice
++ config .prettierrc [link](https://prettier.io/docs/en/options.html)
